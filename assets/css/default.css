@@ -1,6 +1,9 @@
 .container{
     padding: 20px;
 }
+ul.container{
+    padding: 0px;
+}
 
 h2{
     font-size: 30px;
@@ -70,10 +73,10 @@ header hr{
     display: inline-block;
     margin-left: 2px;
     margin-right: 2px;
-    padding: 16px 24px;
+    padding: 8px 16px;
     letter-spacing: 3px;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 80%;
     font-weight: 600;
     text-transform: uppercase;
     outline: 0;
