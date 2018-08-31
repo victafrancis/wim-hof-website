@@ -1,0 +1,143 @@
+h2{
+    font-size: 30px;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+header
+{
+    background: black;
+}
+header hr{
+    color: white
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+    padding: 5px;
+    text-align: center;
+}
+
+#logo h1
+{
+    font-size: 70px;
+    font-family: 'Merriweather', serif;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+}
+
+#menu ul
+{
+    text-align: center;
+}
+
+#menu li
+{
+    display: inline-block;
+}
+
+#menu li a, #menu li span
+{
+    font-family: 'Quicksand', serif;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 16px 24px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+    color: #FFF;
+}
+
+#menu li:hover {background: cornflowerblue;
+    border-radius: 20px;
+    color: #FFF;}
+#menu li.active a, #menu li.active span
+{
+}
+
+#menu .current_page a
+{
+    background: cornflowerblue;
+    border-radius: 20px;
+    color: #FFF;
+
+}
+/*********************************************************************************/
+/* Article                                                                       */
+/*********************************************************************************/
+
+article{
+    margin: 0px auto;
+    width: 700px;
+    font-size: 20px;
+    font-family: 'Quicksand', serif;
+    padding-top: 30px;
+}
+article ul li{
+    padding: 5px 0px
+}
+/*********************************************************************************/
+/* Images                                                                        */
+/*********************************************************************************/
+img {
+
+}
+
+.image-text{
+    font-size: 14px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+footer
+{
+    background: black;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+footer a:active {
+    color: yellow;
+}
